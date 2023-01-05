@@ -1,0 +1,89 @@
+.upper{ text-transform: uppercase !important; }
+h2.h2-home-custom-get{font-size: 24px; margin-bottom: 0px;    font-weight: bold;}
+h3.h3-home-custom-take{font-size: 32px;}
+h3.home-get-custom-h3{font-size: 2.3em;line-height: 42px;}
+h3.home-lower-custom-h3{font-size: 16px;line-height: 22px;}
+h3.no-margin.home-how-custom-h3{font-size: 24px;line-height: 30px;}
+h3.home-how-custom-h3{font-size: 24px;line-height: 30px;}
+h2.no-margin.text.home-stats-band-h2{font-size: 27px;font-weight: 700;margin-bottom: 0;color: #fff;}
+h3.home-invest-in-loans-h3{font-weight: 600;color: #DFA128; font-size: 2.3em; line-height: 30px;}
+h4.home-lend-to-h4{font-size: 22px; line-height: 30px; margin-top: 25px; font-weight: 500 !important;}
+.earn-font{font-size: 65px; padding: 25px;}
+h2.cc-custom-h2{line-height: 1.5;font-size: 21px;margin: 0 0 1em 0;padding: 0;}
+@media only screen and (max-width: 767px){h3.heading-block.h3{font-size: 28px !important;line-height: 1.2em !important;} h3.home-how-custom-h3 {font-size: 20px;}
+h2.cc-custom-h2{font-size: 15px;} 
+}@media only screen and (max-width: 767px){h1.about-custom-h1.fadeInUp.animated{margin-bottom:0px;} h3.home-invest-in-loans-h3{font-size: 25px;}}
+@media only screen and (max-width: 1199px){h2.h2-home-custom-get{font-size: 20px; line-height: 24px;}}
+
+h3.no-margin.text.invest-stat-band-h3{font-size: 2.3em;}
+h4.subscribe_content.invest-find-h4{padding-top: 20%; font-size: 1.75rem; color: #444; font-weight: 600; line-height: 1.5; margin: 0 0 30px 0; font-family: 'Raleway',sans-serif;}
+
+
+h1.about-custom-h1{margin: 0.1em 0em 0.40em;color: #fefefe!important;font-size: 64px;letter-spacing: 2px;text-transform: uppercase;font-weight: 700;line-height: 1;margin-bottom: 30px;}
+h2.about-custom-h2{font-size:32px;}
+h3.about-custom-h3{font-size:20px;font-weight:bold;}
+
+@media only screen and (max-width: 1250px){h1.about-custom-h1.fadeInUp.animated{font-size: 5vw;}}
+
+h3.career-custom-h3{font-size: 18px!important;font-weight: 600!important;}
+
+h2.contact-custom-h2{font-size:26px;}
+h2.contact-custom-h2-send{font-size:24px;}
+.contact-span-desc{font-size:20px!important;}
+
+h2.help-custom-h2{display: inline;font-size: 26px;vertical-align: middle;font-weight: 600;}
+
+h1.sitemap-custom-h1{font-size:20px!important;font-weight:700!important;}
+
+h1.calcu-custom-h1{color: #333 !important;font-size: 64px;letter-spacing: 2px;text-transform: uppercase;font-weight: 700;line-height: 1;margin-bottom: 30px; margin-top: 0px;}
+@media only screen and (max-width: 1250px){h1.calcu-custom-h1.fadeInUp.animated{font-size: 5vw;}}
+@media only screen and (max-width: 767px){h1.calcu-custom-h1.fadeInUp.animated{margin-bottom:0px;}}
+
+h2.scs-custom-h2{font-size:24px;}
+h3.scs-custom-h3{font-size: 20px;font-weight: 700;text-transform: uppercase;letter-spacing: 1px;padding: 0 !important;padding-left: 0px!important;}
+
+h3.media-heading.loan-custom-h3{font-size:18px;}
+h3.text-bold.loan-custom-h3{font-size:18px;}
+h3.loan-custom-h3{font-size:18px;}
+h2.loan-custom-h2{font-weight: 700;font-size: 30px;color: #fff;}
+h2.loan-custom-fast-h2{margin-top: 0px;margin-bottom: 0px;font-size: 26px;}
+h2.loan-custom-how-h2{font-size: 34px;margin-bottom: 0;}
+h2.loan-custom-borrow-h2{font-weight: 700; font-size: 30px;color: #fff;}
+h2.loan-custom-faq-h2{font-size: 34px;margin-bottom: 0;}
+
+h2.nobottommargin.info-custom-h2{font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;font-size: 18px;margin-bottom: 0 !important;margin-top: 10px;margin: 0 0 30px 0;}
+h3.info-custom-h3{margin: 15px 0 0 0;font-size: 16px;font-weight: 300;}
+
+h1.privacy-custom-h1{font-size: 20px;font-weight: 700;}
+h2.privacy-custom-h2{font-size: 18px;font-weight: 600;}
+
+h1.salary-custom-h1{display: inline;color: #fff;background-color: rgba(0, 0, 0, 0.5);padding: 5px 15px;font-size: 24px;}
+h1.salary-custom-why-h1{font-size: 34px;margin-bottom: 0;}
+h2.salary-payfor-custom-h2{font-weight: 700;font-size: 30px;color: #fff;}
+h2.salary-calculate-custom-h2{background: transparent;background-color: transparent;color: #FFFFFF;position: relative;display: inline-block;margin-bottom: 0;font-size: 20px;font-weight: 700;}
+h3.salary-important-h3{font-size: 30px;margin-bottom: 0;font-weight: 500;text-transform: uppercase;letter-spacing: 1px;color: #333;}
+h2.salary-loan-h2{margin-top: 10px;margin-bottom: 10px;font-size: 18px;}
+h2.salary-customer-custom-h2{font-size: 34px;margin-bottom: 0;}
+h2.salary-low-custom-h2{line-height: 1.8;font-size: 22px;margin: 0 0 1em 0;padding: 0;}
+h2.salary-custom-h2{font-size:32px;}
+
+h1.text--title.invest-custom{margin-top: 0px;}
+h2.no-margin.text.invest-custom-h2{color: #ffffff;margin: 0;font-weight: 600;font-size: 18px;}
+h2.check-how-custom-h2{font-weight: 800;font-size: 40px;text-align: center;color: #FFFFFF !important;}
+h2.text--title.center.custom-h2{font-size:26px;}
+h2.invest-custom-h2{font-size: 20px;font-weight: 700;letter-spacing: 1px;font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+h2.sbl-custom-h2{font-size: 22px;margin-bottom: 15px;}
+h2.sbl-benefits-custom-h2{color: white !important;font-style: normal;font-weight: 400;font-size: 36px;text-align: center;margin-bottom: 0;}
+h2.sbl-suit-custom-h2{font-style: normal;font-weight: 400;font-size: 36px;color: white !important;text-align: center;margin-bottom: 30px !important;}
+h2.sbl-how-custom-h2{font-size: 2.3em;margin-top: 20px;margin-bottom: 10px;font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;box-sizing: inherit;}
+h2.sbl-small-custom-h2{font-size: 34px;margin-bottom: 0;margin-top: 20px;font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;    margin: 0 0 30px 0;}
+
+h3.sbl-send-custom-h3{font-size: 20px;font-weight: 700;letter-spacing: 1px;font-family: 'Source Sans Pro', sans-serif;color: #333;}
+
+h1.sbl-custom-h1-form{font-size: 24px;}
+@media only screen and (max-width: 767px) { h1.sbl-custom-h1-form { font-size: 20px; line-height: 40px;margin-top: 0px; margin-bottom: 0px;}
+h2.salary-customer-custom-h2{font-size: 26px;}
+h1.test-h1{font-size: 64px; text-transform: uppercase;}

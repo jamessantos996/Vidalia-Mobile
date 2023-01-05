@@ -1,0 +1,151 @@
+#slider .floating-text-mobile-tablet {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+	width: 100%;
+	padding: 15px;
+	position: relative;
+	display: none;
+	top: -50px;
+}
+
+#slider.mobile-header {
+	display: none;
+}
+
+#slider.mobile-header p {
+	margin: 0;
+}
+
+#slider.mobile-header .header-form-container {
+	padding: 35px 10px;
+	background-color: #113b5e;
+}
+
+/** benefits band **/
+.benefits-band .col_one_third {
+	margin-bottom: 0px !important;
+}
+
+.benefits-band .col_one_third .list-style-blue-box {
+	text-align: left !important;
+	padding-left: 1.5em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	.slider-caption{
+		top: 4px !important;
+	}
+}
+
+.mobile-image {
+	background-image: url(../../images/header/salary-loan.jpg);
+	background-position: 100% 16% !important;
+	width: 100% !important;
+	height: auto !important;
+	background-repeat: no-repeat !important;
+}
+
+.borrowing-benefits {
+    background-image: url(../../images/section-major-expenses.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+}
+
+@media only screen and (max-width: 479px) {
+	.container, #header.full-header .container, .container-fullwidth{
+		width: 100% !important;
+	}
+
+	.mobile-image {
+		background-image: url(../../images/header/salary-loan-mobile.jpg);
+		background-position: 76% 21% !important;
+		height: 202px !important;
+		background-size: 256%;
+		padding: 115px 0 10px;
+
+	}
+
+	#slider {
+		display: none;
+	}
+
+	#slider.mobile-header {
+		display: block;
+	}
+
+	#slider.mobile-header .floating-text-mobile-tablet {
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.5);
+		font-size: 16px;
+		width: 100%;
+		padding: 15px;
+		display: inline-block;
+		position: relative;
+		top: 0;
+	}
+
+	.container {
+		width: 95% !important;
+	}
+
+	.quote-block p {
+		font-size: 1.1875rem;
+		line-height: 1.3684;
+	}
+
+	blockquote {
+		margin: 0px !important;
+	}
+
+	.benefits-band .col_one_third {
+		margin-bottom: 10px !important;
+	}
+
+	.benefits-band .col_one_third .list-style-blue-box {
+		text-align: left !important;
+	}
+	
+	.borrowing-benefits {
+		padding: 45px 0px;
+	}
+}
+
+@media only screen and (max-width: 920px) and (min-width: 480px){
+	.slider-caption{
+		top: 30px !important;
+	}
+
+	#slider .floating-text {
+		display: none;
+	}
+
+	#slider .floating-text-mobile-tablet {
+		display: block;
+	}
+	
+	.borrowing-benefits {
+		padding: 45px 0px;
+	}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	#slider .floating-text {
+		bottom: 22px;
+		right: -345px;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 920px){
+	.floating-text {
+		right: -260px !important;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px){
+	#slider .floating-text{
+		right: -350px !important;
+	}
+}

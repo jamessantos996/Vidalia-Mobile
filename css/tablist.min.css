@@ -1,0 +1,41 @@
+* Copyright jQuery Foundation and other contributors * Released under the MIT license. * http://jquery.org/license
+* * http://github.com/angular-ui/ui-select
+* Version:0.19.5 - 2016-10-24T23:13:59.551Z * License:MIT */.ui-select-highlight{font-weight:700}
+@-webkit-keyframes dropIn{0%{-webkit-transform:translateY(-50px);transform:translateY(-50px)}
+to{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@keyframes dropIn{0%{-webkit-transform:translateY(-50px);transform:translateY(-50px)}
+to{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@-webkit-keyframes bringUp{0%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+to{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@keyframes bringUp{0%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+to{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+@-webkit-keyframes fadeIn{0%{opacity:0}
+to{opacity:1}
+}
+@keyframes fadeIn{0%{opacity:0}
+to{opacity:1}
+}
+@-webkit-keyframes aroundTheClock{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}
+}
+@keyframes aroundTheClock{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}
+}
+@-webkit-keyframes bounce{0%, 20%, 50%, 80%, to{-webkit-transform:translateY(0);transform:translateY(0)}
+40%{-webkit-transform:translateY(-15px);transform:translateY(-15px)}
+60%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}
+}
+@keyframes bounce{0%, 20%, 50%, 80%, to{-webkit-transform:translateY(0);transform:translateY(0)}
+40%{-webkit-transform:translateY(-15px);transform:translateY(-15px)}
+60%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}
+}
+ul.quick-steps-carousel-nav{cursor:pointer}
+ul.quick-steps-carousel-nav .quick-steps-navitem:not(.active-item):hover .quick-step-num{-webkit-transition:background-color .1s, color .15s;background-color:#555 !important;color:white;padding-top:3px;text-shadow:1px 1px 1px rgba(0,0,0,0.2);border-color:#555 !important;transition:all .3s ease;background-image:url('../images/icons/iconalt.svg');background-position:center center;background-size:100% 100%;border-radius:50%;width:52px !important;height:52px !important;font-size:28px;font-family:'Lato', sans-serif;text-align:center !important;}
+ul.quick-steps-carousel-nav .quick-step-num{-webkit-transition:background-color .1s, color .15s;border:1px solid #555;background-color:white !important;color:black;padding-top:3px;text-shadow:1px 1px 1px rgba(0,0,0,0.2);border-color:black !important;transition:all .3s ease;background-image:url('../images/icons/iconalt.svg');background-position:center center;background-size:100% 100%;border-radius:50%;width:52px !important;height:52px !important;font-size:28px;font-family:'Lato', sans-serif;text-align:center !important;}
+ul.quick-steps-carousel-nav .quick-step-header{color:#444;margin:15px 0 0 0;font-size:16px;font-weight:300;font-family:'Raleway', sans-serif;}
+ul.quick-steps-carousel-nav .active-item .quick-step-num{-webkit-transition:background-color .1s, color .15s;background-color:#DFA128 !important;color:#FFF;padding-top:3px;text-shadow:1px 1px 1px rgba(0,0,0,0.2);border-color:#DFA128 !important;transition:all .3s ease;background-image:url('../images/icons/iconalt.svg');background-position:center center;background-size:100% 100%;border-radius:50%;width:52px !important;height:52px !important;font-size:28px;font-family:'Lato', sans-serif;text-align:center !important;border:1px solid #555;}
+ul.quick-steps-carousel-nav .active-item .quick-step-header{font-weight:600;color:#DFA128;margin:15px 0 0 0;font-size:16px;font-family:'Raleway', sans-serif;box-sizing:border-box;text-align:center;list-style:none;}

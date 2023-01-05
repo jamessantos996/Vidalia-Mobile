@@ -1,0 +1,48 @@
+.title-h3{color: #dfa128;}
+h3{margin: 0 0 10px 0 !important;}
+ol.d {list-style-type: lower-alpha; margin-bottom: 0; line-height: 1.4em}
+ol.d,li.d{margin-left: 60px;}
+ul.list,li.list{margin-left: 60px; margin-bottom:0 !important; line-height: 1.8 !important;}
+span{line-height: 1.8em}
+.table.bank-details{width: 100%;}
+.table.bank-details > thead > tr > th, .table.bank-details > tbody > tr > th, .table.bank-details > tfoot > tr > th, .table.bank-details > thead > tr > td, .table.bank-details > tbody > tr > td, .table.bank-details > tfoot > tr > td {
+  padding: 4px 20px 4px 0;
+  line-height: 1.3;
+  vertical-align: top;
+  border:0 !important;
+  width:50%;
+}
+@media (max-width: 411px) {
+   .table.bank-details > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+      padding: 4px 10px 4px 0;
+      line-height: 0;
+    }
+}
+@media (max-width: 500px) {
+   .table.bank-details > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+      line-height: inherit;
+    }
+}
+.f-15{
+  font-size: 15px;
+}
+.f-15-0{
+  font-size: 15px;
+  margin: 0 !important;
+}
+.theme-color{
+  background-color: #dfa128;
+  color: #fff;
+}
+.text-color{
+  color: #dfa128;
+  text-decoration: underline;
+}
+.l-height{
+  line-height: 2.428571 !important;
+}
+.tr-border{
+  border-top: 1px solid #dee2e6;
+}       
+
+      

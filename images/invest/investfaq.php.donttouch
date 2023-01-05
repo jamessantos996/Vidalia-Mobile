@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<meta name="author" content="SemiColonWeb" />
+
+
+
+	<!-- Stylesheets
+
+	============================================= -->
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+
+	<link rel="stylesheet" href="../style.css" type="text/css" />
+
+	<link rel="stylesheet" href="../css/custom.css" type="text/css" />
+
+	<link rel="stylesheet" href="../css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
+
+	<link rel="stylesheet" href="../css/animate.css" type="text/css" />
+
+	<link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+	<link rel="stylesheet" href="../css/responsive.css" type="text/css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!--[if lt IE 9]>
+
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">
+		</script>
+
+	<![endif]-->
+
+
+
+	<!-- Document Title
+
+	============================================= -->
+
+	<title>Vidalia Lending Corp. | Invest on Us</title>
+
+
+
+</head>
+
+
+
+<body class="stretched no-transition">
+
+
+
+	<!-- Document Wrapper
+
+	============================================= -->
+
+	<div id="wrapper" class="clearfix">
+
+
+
+		<!-- Header
+
+		============================================= -->
+
+		<header id="header" class="full-header">
+
+
+
+			<div id="header-wrap">
+
+
+
+				<div class="container clearfix">
+
+
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+
+
+					<!-- Logo
+
+					============================================= -->
+
+					<div id="logo">
+
+						<a href="../index.php" class="standard-logo" data-dark-logo="../images/logo-dark.png"><img src="../images/logo.png" alt="Canvas Logo"></a>
+
+						<a href="../index.php" class="retina-logo" data-dark-logo="../images/logo-dark@2x.png"><img src="../images/logo@2x.png" alt="Canvas Logo"></a>
+
+					</div><!-- #logo end -->
+
+
+
+					<!-- Primary Navigation
+
+					============================================= -->
+
+					<nav id="primary-menu">
+
+
+
+						<ul>
+
+							<li><a href="../"><div>Home</div></a></li>
+
+							<li><a href="../about.php"><div>About us</div></a></li>
+
+							<li><a href="../borrow/"><div>Borrow</div></a></li>
+							
+							<li><a href="../loans/"><div>Loans</div></a></li>
+
+							<li><a href="../loan-products.php"><div>Loan Products</div></a></li>
+
+							<li><a href="../faq/"><div>FAQ's</div></a></li>
+
+							<li><a href="../how-to-apply.php"><div>Apply Now</div></a></li>
+
+							<li><a href="../loan-guidelines.php"><div>Loan Guidelines</div></a></li>
+
+							<li class="current"><a href="index.php"><div>Invest On Us</div></a></li>
+
+							<li><a href="../careers/"><div>Careers</div></a></li>
+
+							<li><a href="../contact.php"><div>Contact Us</div></a></li>
+
+						</ul>
+
+
+
+					</nav><!-- #primary-menu end -->
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</header><!-- #header end -->
+
+
+
+		<!-- Page Title
+
+		============================================= -->
+
+		<section id="page-title" class=" page-title-parallax section notopmargin nobottommargin" style="padding: 50px 0px; background-image: url('../images/parallax/title-page/invest-title-bg.jpg'); background-position: 50% -15px;" data-stellar-background-ratio="0.3">
+
+
+
+			<div class="container clearfix">
+
+				<h1>Invest on Us</h1>
+
+				<span>Vidalia Lending is opening its doors to forge partnership with interested <br>shareholders who can help augment our financial resources .</span>
+
+			</div>
+
+
+
+		</section><!-- #page-title end -->
+
+
+
+		<!-- Content
+
+		============================================= -->
+
+	<section id="content">
+
+
+
+			<div class="content-wrap">
+
+
+
+				<div class="container clearfix">
+
+
+
+					<!-- Post Content
+
+					============================================= -->
+
+					<div class="postcontent nobottommargin clearfix">
+
+
+
+						<div id="faqs" class="faqs">
+
+
+
+							<div class="toggle faq faq-marketplace faq-authors">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Is your company registered with the Securities and Exchange Commission (SEC) ?</div>
+
+								<div class="togglec">Yes! SEC registraton : CS200813771</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-authors faq-miscellaneous">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>How long is your company operating?</div>
+
+								<div class="togglec">Vidalia Lending Corp started business on October, 2008</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-miscellaneous">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Is Vidalia a legitimate company?</div>
+
+								<div class="togglec">Yes! We are a license lending company and have records at SEC and BIR<br>
+
+									Our business papers are in our office and you're free to view</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-authors faq-legal faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>How is the loan investment works?</div>
+
+								<div class="togglec">Its simple! you invest at Vidalia and we will return your money plus interest earned. Joining is fast and easy.</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-marketplace faq-authors">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Where can I find the investment details like (terms of placement, interest rate, etc)</div>
+
+								<div class="togglec">please fill out the form below for us to send you more information.</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-affiliates faq-miscellaneous">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>I'm interested, how do I start?</div>
+
+								<div class="togglec">the process is simple and you can do it on the internet
+								<ul class="iconlist iconlist-color" style="margin-top: 5px; margin-bottom: 5px;">
+
+									<li><i class="icon-plus-sign"></i>fill out online form and wait for confirmation email</li>
+
+									<li><i class="icon-plus-sign"></i>fund your investment via bank deposit, credit card or Paypal</li>
+
+									<li><i class="icon-plus-sign"></i>send proof of payment for verification</li>
+
+									<li><i class="icon-plus-sign"></i>you will received confirmation email as proof with certificate of investment</li>
+
+									<li><i class="icon-plus-sign"></i>wait for the maturity of your investment (90, 180, 360 days)</li>
+
+									<li><i class="icon-plus-sign"></i>Vidalia will return your investment money plus interest earned</li>
+
+								</ul>
+								please browse this <a href="invest_visualrep.jpg" style="color:#CA8D2C;"> page</a> for visual representation.
+								</div>
+
+							</div>
+
+							<div class="toggle faq faq-legal faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>How to claim my investment?</div>
+
+								<div class="togglec">
+
+								<ul class="iconlist iconlist-color" style="margin-top: 5px; margin-bottom: 5px;">
+
+									<li><i class="icon-plus-sign"></i>our system will email you 1 week before maturity date. You have the option to continue or pull out</li>
+
+									<li><i class="icon-plus-sign"></i>if you want to continue, your investment money including interest earned will roll over to your new Terms of Placement</li>
+									<li>Confirmation email will be sent showing details of the new investment</i></li>
+
+									<li><i class="icon-plus-sign"></i>if you want to pull out, an email will be sent to verify your payout details </li>
+									<li><i style="color:#555;">Confirmation email will be sent to you after payout was made</i></li>
+									<li>please browse this <a href="../invest/invest_claim.jpg" style="color:#CA8D2C;">page</a> for visual representation</li>
+
+								</ul>
+								</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-legal faq-authors faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>What if I want to pre-terminate my investment?</div>
+
+								<div class="togglec">if you are unable to finish your placement, our system will charge half of the interest rate given or P1000 which ever is higher. This request takes up to 5 days to process</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-affiliates">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>Can I go to your office and verify your company?</div>
+
+								<div class="togglec">Yes, you are free to come over in our office to check our company<br>
+
+								please browse our <a href="../contact.php" style="color:#CA8D2C;">contact</a> page for more details</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-authors faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>How come you're offering higher interest rate compare to deposit products of banks?</div>
+
+								<div class="togglec">Simply, because we can. The money you invested will be use as added working capital to fund the loans we extend to clients Vidalia loan products interest rates is 3%-5% per month</div>
+
+							</div>
+
+
+
+							<div class="toggle faq faq-marketplace faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>I'm an OFW, can I still invest at Vidalia?</div>
+
+								<div class="togglec">Yes, our process is online thus, you can join anywhere in the world.
+								</div>
+
+							</div>
+							<div class="toggle faq faq-marketplace faq-itemdiscussion">
+
+								<div class="togglet"><i class="toggle-closed icon-question-sign"></i><i class="toggle-open icon-question-sign"></i>I'm not interested at investing but i would like to refer someone</div>
+
+								<div class="togglec">thats ok, because we give out these commissions<br>
+								P10,000 to below P100,000 = P500.00<br>
+								P100,000 and above = P1,000.00
+								</div>
+
+							</div>
+
+
+
+						</div>
+						<br>
+						<br>
+						<div class="col_three_fifth">
+
+						<div class="vidalia-form-heading heading-block fancy-title nobottomborder">
+
+							<h4>Online Investment Application</h4>
+
+						</div>
+
+
+
+						<div class="contact-widget">
+
+
+
+							<div class="contact-form-result"></div>
+
+
+
+							<form class="nobottommargin" id="template-invest-contactform" name="template-invest-contactform" action="../include/sendinvestmail.php" method="post">
+
+
+
+								<div class="form-process"></div>
+
+
+
+								<div class="col_full">
+
+									<label for="template-contactform-name">Full Name <small>*</small></label>
+
+									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+
+								</div>
+
+
+
+								<div class="col_full">
+
+									<label for="template-contactform-email">Email <small>*</small></label>
+
+									<input type="text" id="template-contactform-email" name="template-contactform-email" value="" class="sm-form-control required" />
+
+								</div>
+
+
+
+								<div class="col_full">
+
+									<label for="template-contactform-contact">Contact # <small>*</small></label>
+
+									<input type="text" id="template-contactform-contact" name="template-contactform-contact" value="" class="sm-form-control required" />
+
+								</div>
+
+
+
+								<div class="col_full">
+
+									<label for="template-contactform-how">How did you hear about us? <small>*</small></label>
+
+									<select id="template-contactform-how" name="template-contactform-how" class="sm-form-control required">
+
+		                                <option value="" selected="">-Select-</option>
+
+		                                <option value="None">None</option>
+
+		                                <option value="Search Engine">Search Engine</option>
+
+		                                <option value="Facebook">Facebook</option>
+
+		                                <option value="Friends">Friends</option>
+
+		                                <option value="Referral">Referral</option>
+
+		                            </select>
+
+								</div>
+
+								
+
+								<div class="col_full">
+
+									<label for="template-contactform-referred-by">Referred by <small>*</small></label>
+
+									<input type="text" id="template-contactform-referred-by" name="template-contactform-referred-by" value="" class="sm-form-control required" />
+
+								</div>
+
+
+
+								<div class="col_full">
+
+									<label for="template-contactform-message">Message <small>*</small></label>
+
+									<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30" aria-required="true"></textarea>
+
+								</div>
+
+
+
+								<div class="col_full hidden">
+
+									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+
+								</div>
+								<div class="col_full">
+
+									<div class="g-recaptcha" data-sitekey="6LdCVCgTAAAAALoWmYNdO4AO2gWISDBbvpYR6Pxf" ></div>
+
+								</div>
+								
+
+								<div class="col_full">
+
+									<button class="button button-3d nomargin button-amber" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Inquire now</button>
+
+								</div>
+
+
+
+							</form>
+
+						</div>
+
+
+
+					</div>
+
+
+
+					</div>
+					<!-- .postcontent end -->
+
+
+
+					<!-- Sidebar
+
+					============================================= -->
+
+					<div class="sidebar nobottommargin col_last clearfix">
+
+
+
+						<div class="col_full col-padding-40 quick-contact-amber ohidden">
+
+							<div>
+
+								<h3 class="uppercase" style="font-weight: 600;">Contact Us Today!</h3>
+
+								<a href="../contact.php" class="button button-border button-light button-rounded uppercase nomargin">Inquire now</a>
+
+							</div>
+
+						</div>
+
+
+
+						<div class="widget widget_links clearfix">
+
+							<div class="title-block">
+
+								<h4>Our <strong class="amberized">Solutions</strong></h4>
+
+							</div>
+
+							<ul id="solution-list">
+
+								<li><img src="../images/icons/widget-link.png" />Immediate Loan Facility</li>
+
+								<li><img src="../images/icons/widget-link.png" />Fast Loan Approval</li>
+
+								<li><img src="../images/icons/widget-link.png" />Competitive Loan Interest</li>
+
+								<li><img src="../images/icons/widget-link.png" />Friendly Customer Service</li>
+
+							</ul>
+
+						</div>
+
+
+
+						<div class="widget widget_links clearfix amberized">
+
+							<div class="col_full">
+
+								<a href="../onlineloan.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="loan-application"></i>
+
+										</div>
+
+										<h3>Loan Application</h3>
+
+									</div>
+
+								</a>
+
+								<a href="../e-commerce.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="ecommerce-loan-icon"></i>
+
+										</div>
+
+										<h3>e-Commerce Loan</h3>
+
+									</div>
+
+								</a>
+
+								<a href="../how-to-apply.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="apply-icon"></i>
+
+										</div>
+
+										<h3>How to Apply</h3>
+
+									</div>
+
+								</a>
+
+								<a href="../advantages.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="advantages-icon"></i>
+
+										</div>
+
+										<h3>Advantages</h3>
+
+									</div>
+
+								</a>
+
+								<a href="../contact.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="contact-icon"></i>
+
+										</div>
+
+										<h3>We Call You</h3>
+
+									</div>
+
+								</a>
+
+								<a href="../loan-calculator.php" class="featuresh3">
+
+									<div class="feature-box fbox-small fbox-plain">
+
+										<div class="fbox-icon">
+
+											<i class="calculator-icon"></i>
+
+										</div>
+
+										<h3>Loan Calculator</h3>
+
+									</div>
+
+								</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+				</div>
+				<div class="promo promo-light promo-full bottommargin-lg footer-stick">
+					<div class="container clearfix">
+						<h3>Loans made simple!<span class="vidalia-color"> Need money?</span> Apply for up to <span class="vidalia-color">P100,000</span>.</h3>
+						<a href="../onlineloan.php" class="button button-dark button-xlarge button-rounded">Apply Now</a>
+					</div>
+				</div>
+
+			</div>
+
+
+
+		</section><!-- #content end -->
+
+<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+						<div class="col_half">
+							<div class="col_full">
+								<div class="widget clearfix">
+									<img src="../images/footer-widget-logo.png" alt="" class="footer-logo">
+									<p>Get the <strong>loan</strong> you need at <strong>low lending rates</strong> and <strong><br>flexible payment terms</strong>.</p>
+
+									<div style="background: url('../images/world-map.png') no-repeat center center; background-size: 100%;">
+										<address>
+											<strong>Headquarters:</strong><br>
+											Unit 601 Summit One Tower<br>
+											#530 Shaw Boulevard<br>
+											Mandaluyong City, Metro Manila<br>
+										</address>
+										<abbr title="Landline Number"><strong>Direct Line:</strong></abbr> &nbsp; 534 5482 | &nbsp;534 2556 &nbsp;| &nbsp;&nbsp;718-0358<br>
+										<abbr title="Phone Number"><strong>Phone:</strong></abbr>  0917 328 4072 GLOBE<br>
+										<abbr title="Phone Number"><strong>Phone:</strong></abbr>  0998 972 9177 SMART<br>
+										<abbr title="Phone Number"><strong>Phone:</strong></abbr>  0925 881 0075 SUN<br>
+										<abbr title="Fax"><strong>Fax:</strong></abbr>  310.5270<br>
+										<abbr title="Email Address"><strong>Email:</strong></abbr>  apply@vidalia.com.ph
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col_half col_last">
+							<div class="col_half">
+								<div class="widget widget_links clearfix">
+
+									<a href="sitemap.php"><h4>SITEMAP</h4></a>
+
+									<ul>
+										<li><a href="../index.php">Home</a></li>
+										<li><a href="../about.php">About Us</a></li>
+										<li><a href="../loan-products.php">Services</a></li>
+										<li><a href="../faq/">FAQ'S</a></li>
+										<li><a href="../loan-guidelines.php">How to Apply</a></li>
+										<li><a href="../contact.php">Contact Us</a></li>
+										<li><a href="../onlineloan.php">Loan Application</a></li>
+									</ul>
+
+								</div>
+							</div>
+
+							<div class="col_half col_last">
+								<div class="widget widget_links clearfix">
+
+									<ul>
+										<li><a href="../contact.php">We Call You</a></li>
+										<li><a href="../loan-calculator.php">Loan Calculator</a></li>
+	                                    <li><a href="../loan-guidelines.php">Loan Guidelines</a></li>
+	                                    <li><a href="../invest/invest-on-us.php">Invest on Us</a></li>
+	                                    <li><a href="../careers/">Careers</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col_one_third col_last">
+
+						<div class="widget subscribe-widget clearfix">
+							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Promos!</h5>
+							<div class="widget-subscribe-form-result"></div>
+							<form id="widget-subscribe-form" action="../include/subscribe.php" role="form" method="post" class="nobottommargin">
+								<div class="input-group divcenter">
+									<span class="input-group-addon"><i class="icon-email2"></i></span>
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+						</div>
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 clearfix bottommargin-sm">
+									<a href="https://www.facebook.com/VidaliaLending" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="https://www.facebook.com/VidaliaLending"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+								</div>
+								<div class="col-md-6 clearfix">
+									<a href="https://twitter.com/VidaliaLending" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px; background-color: #28a9e0 !important">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="https://twitter.com/VidaliaLending"><small style="display: block; margin-top: 3px;"><strong>Follow us</strong><br>on Twitter</small></a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyright &copy; 2008-2016 Vidalia Lending Corp. All Rights Reserved.<br>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+
+
+	</div><!-- #wrapper end -->
+
+
+
+	<!-- Go To Top
+
+	============================================= -->
+
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+
+
+	<!-- External JavaScripts
+
+	============================================= -->
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+
+	<script type="text/javascript" src="../js/plugins.js"></script>
+
+
+
+	<!-- Footer Scripts
+
+	============================================= -->
+
+	<script type="text/javascript" src="../js/functions.js"></script>
+
+
+
+</body>
+
+</html>

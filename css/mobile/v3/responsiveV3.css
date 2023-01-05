@@ -1,0 +1,151 @@
+@media screen and (min-width: 320px) {
+}
+
+@media screen and (min-width: 360px) {
+}
+
+@media screen and (min-width: 435px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    /* Banner Section */
+    .banner-swiper-button-prev {
+        left: 55px;
+    }
+
+    .banner-swiper-button-next {
+        right: 55px;
+    }
+
+    .banner-swiper-button-prev::after,
+    .banner-swiper-button-next::after {
+        font-size: 40px;
+    }
+
+    .banner-swiper-slide {
+        padding: 135px 200px;
+        height: 740px;
+    }
+
+    .banner-header {
+        width: 615px;
+    }
+
+    .banner-header h1 {
+        /* font-size: 59px; */
+    }
+    .banner-header p {
+        width: 460px;
+        font-size: 28px;
+    }
+
+    .banner-slide-2 .banner-header h1 {
+        font-size: 45px;
+    }
+
+    .banner-slide-2 .banner-header span {
+        font-size: 50px;
+    }
+
+    .banner-slide-2 .banner-header p {
+        font-size: 20px;
+    }
+
+    .banner-slide-3 .banner-header h1 {
+        font-size: 45px;
+    }
+    .banner-slide-2 .banner-header p {
+        font-size: 25px;
+    }
+
+    /* Step Section */
+    section.step .step-swiper-slide ul {
+        /* gap: 70px; */
+        gap: 40px;
+    }
+    section.step .step-swiper-slide ul li .step-number-wrapper {
+        min-width: 60px;
+        min-height: 60px;
+    }
+
+    section.step .step-swiper-slide ul li .step-number-wrapper h5 {
+        font-size: 30px;
+    }
+    section.step .step-swiper-slide ul li p {
+        font-size: 20px;
+    }
+
+    /* CTA Section */
+    section.cta .section-img img {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Product Section */
+    section.product {
+        background-image: url("../../images/mobile/v3/products-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: 120px; */
+        background-position: 10% 35%;
+    }
+    /* Step Section */
+    section.step .step-swiper-slide {
+        gap: 100px;
+    }
+    section.step .step-swiper-slide ul {
+        gap: 70px;
+    }
+    section.step .step-swiper-slide ul li .step-number-wrapper {
+        min-width: 80px;
+        min-height: 80px;
+    }
+
+    section.step .step-swiper-slide ul li .step-number-wrapper h5 {
+        font-size: 40px;
+    }
+    section.step .step-swiper-slide ul li p {
+        font-size: 25px;
+    }
+    section.cta .row {
+        gap: 165px;
+    }
+
+    /* Testimonial Section */
+    section.testimonial a {
+        margin: 0;
+    }
+    section.testimonial .testimonial-swiper-slide {
+        padding: 30px 20px;
+    }
+
+    section.testimonial .swiper-slide .footer li .fa-star {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* CTA Section */
+    section.cta .section-img img {
+        height: 500px;
+    }
+    /* Testimonial Section */
+    section.testimonial .section-title {
+        font-size: 68px;
+    }
+
+    section.testimonial .section-subtitle {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* Testimonial Section */
+    section.testimonial .testimonial-swiper-slide {
+        /* width: 400px !important; */
+    }
+}

@@ -1,0 +1,74 @@
+a.button.button-xlarge.button-rounded.mb-35{
+    margin-bottom: 35px;
+}
+.tl{
+    text-align: left;
+}
+img.i-size {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 10px;
+    margin-top: 29px!important;
+}
+.before-heading{
+    font-size: 26px !important;
+}
+
+.swiper-slide.corp-bg {
+    background-image: url(../../images/landing-pages/general-investment.jpg);
+}
+
+.margin-text{
+    margin:0 0 0px 0
+}
+.before-heading{
+    color: #c97d23 !important;
+}
+.content-wrap{
+    padding:80px 0px 0px 0px !important;
+}
+.line-1{
+    position: relative;
+    width:100%;
+    margin:0px;
+    border-top: 2px solid #cccccc;
+    margin-top: -40px !important
+}
+.heading-block{
+    margin-bottom: 22px !important;
+}
+.iconlist.iconlist-large li {
+    margin: 15px 0 !important;
+}
+h5{
+    margin: 0px !important;
+}
+.iconlist {
+ margin-left: 0px !important; 
+}
+@media only screen and (min-width: 768px){
+    .text--title {
+        font-size: 2.2em !important;
+        line-height: 1.2;
+    }   
+}
+@media only screen and (max-width: 667px){
+    .subscribe_content {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 479px){
+    .swiper_wrapper:not(.force-full-screen), .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide, .ei-slider {
+        height: 170px !important;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {
+        height: 365px !important;
+    }
+}
+
+.subscribe_content{
+    padding-top: 20%;
+}

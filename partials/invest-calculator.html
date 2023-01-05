@@ -1,0 +1,214 @@
+
+<style type="text/css">
+.irs-from, .irs-to, .irs-single  { background: #DFA128; }
+.irs-from:after, .irs-to:after, .irs-single:after  { border-top-color: #DFA128; }
+.irs-min, .irs-max { color: #ffffff; background: rgba(235, 156, 77, 0.5); }
+
+@media only screen and (max-width: 360px) {
+	.calculator ul.tab-nav.tab-nav2 li {
+		width: 100%;
+		margin: 5px 0;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.calculator {
+		padding: 20px 0;
+	}
+}
+</style>
+
+<section class="calculator section nomargin">
+	<div class="container">
+		<div class="tabs clearfix ui-tabs ui-widget ui-widget-content ui-corner-all" id="tab-3">
+
+			<div class="tab-container">
+				<div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-9" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="false" style="display: block;">
+
+					<div class="col_four_fifth nobottommargin">
+
+						<div id="calculator-heading" class="fancy-title nobottomborder heading-block">
+
+							<h4><i class="fa fa-1x fa-calculator"></i>&nbsp;&nbsp;CALCULATE</h4>
+
+						</div>
+
+						<form id="vidalia-loan-calculator" name="jsForm" class="form" onsubmit="return false;">
+
+							<div class="col_full">
+								<div class="form-group">
+									<label for="template-contactform-desired-amount">Desired Amount<small>*</small></label>
+									<input type="text" id="range_invest_amount" name="jsLoanAmount" class="form-control" />
+								</div>
+
+								<!-- <input type="text" class="form-control input-lg not-dark required currency-input" id="template-contactform-desired-amount" name="jsLoanAmount" aria-required="true"/> -->
+							</div>
+
+							<div class="col_full">
+								<div class="form-group">
+									<label for="template-contactform-months-to-pay">Terms<small>*</small></label>
+									<input type="text" id="range_invest_terms" name="jsMonthlyAmort" class="form-control" />
+								</div>
+
+								<!-- <select class="form-control input-lg not-dark required" id="template-contactform-months-to-pay" name="jsMonthlyAmort" aria-required="true">
+									<option selected="" value="">-Select-</option>
+									<option value="3">3</option>
+									<option value="6">6</option>
+									<option value="9">9</option>
+									<option value="12">12</option>
+								</select> -->
+							</div>
+
+							<div class="col_full">
+
+								<label for="template-contactform-monthly-amortization">Total Interest Earnings<small>*</small></label>
+
+								<input type="text" disabled class="form-control input-lg not-dark required" id="template-contactform-Term" name="jsInvestResult" aria-required="true" />
+
+							</div>														<div class="col_full">								<label for="template-contactform-monthly-amortization">Total Earnings<small>*</small></label>								<input type="text" disabled class="form-control input-lg not-dark required" id="template-contactform-total" name="jsInvestResult2" aria-required="true" />							</div>
+						</form>
+
+					</div>
+
+					<div class="col_one_fifth nobottommargin col_last">
+
+						<div class="heading-block">
+
+							<h2>Herewith are the explanation of the computation:</h2>
+
+						</div>
+
+						<div class="col_full">
+
+							<ul class="iconlist iconlist-color nobottommargin">
+
+								<li><i class="icon-caret-right"></i> Interest Rate - 4-6%</li>
+
+								<li><i class="icon-caret-right"></i> Months to Pay - 3, 6, 9, 12 months to pay</li>
+
+								<li><i class="icon-caret-right"></i> Monthly Amortization - your monthly payment to Vidalia Lending</li>
+
+							</ul>
+
+							<p><small>*This are just estimates. Interest rate &amp; terms not guaranteed.</small></p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.tab-container -->
+		</div> <!-- /.tabs -->
+	</div> <!-- /.container -->
+
+	<script type="text/javascript">
+		/**************************************************
+
+		********* JavaScript Implementation ***************
+
+		*************************************************
+
+		Loan Calculator 		
+
+		The formula for calculating loan payments is:
+
+		» » » : « « «	
+
+		Where the variables are as follows:
+
+		loan_amt - amount to be loan
+
+		interest - interest expressed as a decimal (e.g. 8% is .08)
+
+		monthly_amort - number of payments monthly (e.g. number of months)
+
+		semi_amort - number of payments in a month (e.g. twice in a month)
+
+
+
+		You can enhance the formulas below by allowing the user to change the number 
+
+		of payments per year if you wish. I have hard-coded the payments to monthly.
+
+		*/
+		
+		function Calculateinvest(invest_amt, invest_term, invest_frequent = 0) {         	// n2 is the loan amount         	var n2 = parseInt(invest_amt);         	var n3 = parseInt(invest_term);         	var interestRate;         	// get interest, n3 is the number of months         	switch (n3) {         		case 12:         		interestRate = 20 / 100;         		break;         		case 9:         		interestRate = 14 / 100;         		break;         		case 6:         		interestRate = 9 / 100;         		break;         		case 3:         		interestRate = 3.5 / 100;         		break;         		case 2:         		interestRate = 2 / 100;         		break;         	}			var s3 = n2 * interestRate; // Total Interest Earning			return s3.toFixed(2);            //return Math.floor(x * 100) / 100;            // if (invest_term == 36){            // 	interest = 0.19;            // }            // else if (invest_term == 48){            // 	interest = 0.195;            // }            // else{            // 	interest = 0.20;            // }            // var y = invest_amt * interest;            // var z = invest_term / invest_frequent;            // var x = y * z;            // return parseInt(x) ;        }        function Showinvest() {        	var invest_amt 		= parseInt(document.jsForm_loan.jsInvestAmount.value);        	var invest_term 	= parseInt(document.jsForm_loan.jsInvestTerm.value);        	// var invest_frequent = document.jsForm_loan.jsInvestfrequent.value;        	var x = Calculateinvest(invest_amt, invest_term);            //var y = Calculateinvest(document.jsForm_loan.jsInvestAmount.value, document.jsForm_loan.jsInvestInterest.value / 100, document.jsForm_loan.jsInvestMonthlyAmort.value) / 2;            if (isNaN(x)) {            	document.jsForm_loan.jsInvestResult.value = 'Could not compute';            } else {            	document.jsForm_loan.jsInvestResult.value = addCommas(x);            	var total = parseInt(x) + invest_amt;            	document.jsForm_loan.jsInvestResult2.value = addCommas(parseInt(total).toFixed(2));            }        }
+	</script>
+
+	<script type="text/javascript">				
+		jQuery(function(){			
+
+			// Get the max value
+			// var maxAllowedLoanAmount = 100000;
+
+    		// Range slider
+    		var investAmtSlider = jQuery("#range_invest_amount");
+    		var investTermsSlider = jQuery("#range_invest_terms");
+    		var resetButton = jQuery("input[type=reset]");
+			jQuery('#range_invest_amount').on('change', function () {				Showinvest();			});						jQuery('#range_invest_terms').on('change', function () {				Showinvest();			});			
+    		investAmtSlider.ionRangeSlider({
+    			min: minAllowedLoanAmount,
+    			max: maxAllowedLoanAmount,								from: minAllowedLoanAmount,
+    			prefix: "P",
+    			grid: true,
+    			force_edge: false,
+    			step: 1000,
+
+    		});
+
+    		investTermsSlider.ionRangeSlider({							from: [3],
+    			values: [3, 6, 9, 12],
+    			grid: true,
+    			force_edge: false,
+    		});
+			ShowInvest();
+    		// Save slider instance
+    		var valAmtSlider = investAmtSlider.data("ionRangeSlider");
+    		var valTermsSlider = investTermsSlider.data("ionRangeSlider");			
+    		resetButton.on('click', function(){
+
+    			valAmtSlider.reset()
+    			valTermsSlider.reset()
+    		})
+
+    		var currencyInput = jQuery('.currency-input');
+
+    		currencyInput.on('keyup', function (){
+    			var elem = jQuery(this);
+
+    			temp = validDigits(elem.val());
+    			elem.val(addCommas(temp));
+
+    		})
+
+    	});
+
+    	// Remove commas
+    	function removeCommas(n) {
+    		return n.replace(',', '');
+    	}
+
+		// Insert commas as thousands separators 
+		function addCommas(n) {
+			var rx = /(\d+)(\d{3})/;
+			return String(n).replace(/^\d+/, function(w) {
+				while (rx.test(w)) {
+					w = w.replace(rx, '$1,$2');
+				}
+				return w;
+			});
+		}
+
+    	// return integers and decimal numbers from input
+    	// optionally truncates decimals- does not 'round' input
+    	function validDigits(n, dec) {
+    		n = n.replace(/[^\d\.]+/g, '');
+    		var ax1 = n.indexOf('.'),
+    		ax2 = -1;
+    		if (ax1 != -1) {
+    			++ax1;
+    			ax2 = n.indexOf('.', ax1);
+    			if (ax2 > ax1) n = n.substring(0, ax2);
+    			if (typeof dec === 'number') n = n.substring(0, ax1 + dec);
+    		}
+    		return n;
+    	}		
+    </script>
+</section>

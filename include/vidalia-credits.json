@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vidalia62818",
+  "private_key_id": "6b1edb0429f2a8b2c992f18c1e5bef731837a09e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUd3dJA0wN10G6\nkc19xbHqN4BVz+MMIB+PGE1T2oNU+le2aTQnpOyK1z1jX/yjo4DwibEI7OMAWUDv\ncSR6O0T9Oww6vBBwvKA46ZBlLCJgzS9hc5Bmolw79OZT9GcIy5kADYrrYlilZ5QS\n/WhlWQpou1C4kEhcNqG7kQlvueeEvMxGw27VRzE3FMLstGSEMyrMfpN+lGTJei+4\nv0XLuH35zldfRbgF4WkNqa0Ei60qeNE7hSKQLvjRTS5cPAYzifHav70lYb5vC/Wt\nTD2dqBV3oBLT7EUJ9kckQeNXvitVg5pY1+MBBaW+cwyZASmUIjIYEdCwDXF6/yw8\nJFui1SStAgMBAAECggEANevl3aVVEXQubcOgI8nfF+KjEuQyKrsiV0YjJeNgjloE\nlbpIbsFH+QqcPVK4gu01hZZkVDAOgmGkfcA4sj7FiQEJ3wQopfvxK9B3AX48cVXR\nrwlNvgZ5owvJwsfVuGE3gNBvD8MDXWMWrOUcMBBzeFYFq/mOK7z/ueMawnyrWb+7\nzA+uDllezDodnBLOeG68HiVBZAKhS9eW87+eNgAWPvsm3+UxseaU1XibR3ZvcFzV\nYxx5fE06pRrNcXQhDpExuI/cEuE4O8PrrwaaMXWyNXJpu8rwLiDJtJklzNZJIsd5\nHRN+XOTcrZ+YyQo4JFXiWAYAUWuPaXdZTPxD2yVqPwKBgQD9fK9OjWtncKzIXb2p\njI/zZMY5K7bIbz6YZg6PfVX8tdE/ggffRIfgnJuxMXLBMiS0r39HPKQpM6C/JrXQ\nGj96A7wYQw0i1vqGxKKlpQqcFqdqe2JJUNOj8Y4i5APGB4oGmjkvW+D5FdxdDpSr\nSIuflZqEMnHn71cO7lgQt4fFOwKBgQDWkq1U8URNYQX5vWLRHLJ/3NwHps2dPOfr\nCE888SVXwt7X5W3IRPtTSzUspzpmX90D+aa+P1hfqwLbdDSLKD1rWnjlFB4etQpS\nuFQe+DGNvVeDUXytfp368nHWyRKspLhTh8FNigz4aIZVZeJZ8oBf+wfKGDmsNPer\nVvZx4lz/NwKBgAZDFUWYgsW8Z9hPUIcmvMujeq4g4VQUQ3SaWNO8oeorR68M9ErU\ns5Kd6861zQLuzS9Vgoxs+BU4fEkcmLM6YsUN4JCs318z9l5r7ySubhOrD5m20JfF\nEmVja0J7ZYh32TYOi0kbOPSOULJP0OZmVWSs2nNXl67GH91zj+Nh1U3PAoGBAJr3\nFa2qDV0g/DLQXySM6DFF7bas9gRgL1JkDu4BbqnCODSOIsonX6dZQo78O0YiZ7lu\nPMlbcFSvagHaG/SAXFNC5Nr0u4gL0efJ7h7rusYV/7T8TeHy9t9851BqqUz8LY9O\nFQIN+K4StynHykCRzbsDzi1bb5N6MYCR7qxzAhzjAoGAcv1UwMFExdlBGN2qrZA9\nuU4loT7G1TxtDPt2R+z7MxglSY2Js3CWaW82lJy7BQJxyUccnxRrz3Bt+HJt0/sN\ncEyUTg/zlixAvKawVWWmZgm/OeNEb8izVXZTf5fpQ6BTzBLww+v0tJNBRgdNmApw\nvoF+DMKcpEfbZI1Sma3kjGM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vidalia-account@vidalia62818.iam.gserviceaccount.com",
+  "client_id": "100861251992083804570",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vidalia-account%40vidalia62818.iam.gserviceaccount.com"
+}

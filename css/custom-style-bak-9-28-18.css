@@ -1,0 +1,458 @@
+a.a-link {
+    color: #dfa128;
+    font-weight: 800;
+    transition: all .2s ease-in-out;
+}
+a.a-link:hover {
+    color: #b76615;
+}
+.footer-contact-us {
+    background-image: url(../images/parallax/bgc.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -30px;
+}
+.text-theme {color: #dfa128 !important;}
+.text-white {color: #fff !important;}
+#footer {
+    margin-top: 0!important;
+}
+
+.slider-caption {
+    background-color: rgba(80, 80, 80, 0.5)!important;
+    top: 101.5px;
+    padding: 25px;
+}
+
+.section.bg-white {
+    background-color: #fff;
+}
+
+.content-wrap.notoppadding.clearfix.pb-0 {
+    padding-bottom: 0;
+}
+
+.section.notopmargin.clearfix.pd-80 {
+    padding: 80px 0px;
+}
+
+
+/*=====================
+        Benefits
+==========================*/
+
+#slider.mobile-header-benefits {
+    display: none;
+}
+
+#slider.mobile-header-benefits p {
+    margin: 0;
+}
+
+#slider.mobile-header-benefits .header-form-container {
+    padding: 35px 10px;
+    background-color: #113b5e;
+}
+
+.mobile-image-benefits {
+    background-image: url(../images/header/benefits-header.jpg);
+    background-position: 100% 16% !important;
+    width: 100% !important;
+    height: auto !important;
+    background-repeat: no-repeat !important;
+}
+
+
+/*=====================
+        Testimonials
+==========================*/
+
+.testimonial {
+    margin-top: 20px !important;
+}
+
+.rating-stars {
+    color: #e6ac2e !important;
+    text-align: right !important;
+    letter-spacing: 5px !important;
+    padding-top: 12px;
+}
+
+.heading {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.heading h4 {
+    display: inline;
+    font-size: 26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+img.icn-52 {
+    height: 52px;
+    width: 52px;
+}
+
+.testi-meta.text-right {
+    text-align: right;
+}
+
+
+/*=====================
+        FAQ's
+==========================*/
+
+.faq .heading img {
+    display: inline;
+    margin-right: 5px;
+}
+
+.faq .heading h4 {
+    display: inline;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.faq .heading {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.contact-info p>span {
+    float: right;
+}
+
+ol.iconlist.iconlist-color.m-5 {
+    margin: 5px 0;
+}
+
+.togglec.d-none {
+    display: none;
+}
+
+
+/*=====================
+        Financial
+==========================*/
+
+html {
+    overflow-x: hidden;
+}
+
+.col-lg-3.col-md-6.dark.center.col-padding.d-blue {
+    background-color: rgb(81, 88, 117);
+    height: 326px;
+}
+
+.col-lg-3.col-md-6.dark.center.col-padding.b-blue {
+    background-color: rgb(87, 111, 158);
+    height: 326px;
+}
+
+.col-lg-3.col-md-6.dark.center.col-padding.l-blue {
+    background-color: rgb(102, 151, 185);
+    height: 326px;
+}
+
+.col-lg-3.col-md-6.dark.center.col-padding.vl-blue {
+    background-color: rgb(136, 195, 326);
+    height: 326px;
+}
+
+
+/*=====================
+        Resources
+==========================*/
+
+.cthumbnail {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: 280px;
+    margin: 10px -10px;
+    background-color: rgb(245, 245, 245);
+}
+
+.coverlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 180px;
+    left: 0;
+    text-align: center;
+    background-color: #dfa128cc;
+}
+
+.coverlay h4.overlay-header {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 25px 15px 0px 15px;
+}
+
+.coverlay h5.overlay-header {
+    color: #fff;
+    font-size: 1em;
+    padding: 15px;
+    margin-top: -24px;
+}
+
+img.uk-overlay-spin.center.mt-50 {
+    margin-top: -50px;
+}
+
+.coverlay.t-180 {
+    top: 180px;
+}
+
+.img-infographic{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 1px solid #bebec3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 60%;
+}
+h1.text-theme{
+    color: #dfa128;
+}
+
+
+@media (max-width: 479px){
+    .img-infographic{
+        width: 100% !important;
+    }
+}
+
+img.uk-overlay-spin.center.mt-0 {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cthumbnail .overlay-content {
+        padding: 0 15px;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .cthumbnail .coverlay {
+        top: 172px;
+    }
+    .coverlay h4.overlay-header {
+        font-size: 1.1em;
+        padding: 10px 0;
+    }
+}
+
+
+/*=====================
+        Invest Header
+==========================*/
+
+#slider.mobile-header {
+    display: none;
+}
+
+#slider.mobile-header p {
+    margin: ;
+}
+
+#slider.mobile-header .header-form-container {
+    padding: 35px 10px;
+    background-color: #113b5e;
+}
+
+.mobile-image {
+    background-image: url(../images/header/invest.jpg);
+    background-position: 100% 16% !important;
+    width: 100% !important;
+    height: auto !important;
+    background-repeat: no-repeat !important;
+}
+
+@media only screen and (max-width: 479px) {
+    .mobile-image {
+        background-image: url(../images/header/invest-header.jpg);
+        background-position: 76% 21% !important;
+        height: 178px !important;
+        background-size: 100%;
+        padding: 115px 0 10px;
+        margin-top: -20px;
+    }
+    #slider.mobile-header {
+        display: block;
+    }
+    #slider.mobile-header .floating-text-mobile-tablet {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 16px;
+        width: 100%;
+        padding: 15px;
+        display: inline-block;
+        position: relative;
+        top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .mobile-image {
+        height: 790px !important;
+        background-image: url(../images/header/invest-tablet.jpg) !important;
+        width: 100%;
+    }
+}
+
+@media (min-width: 456px) and (max-width: 479px) {
+    .mobile-image {
+        height: 790px !important;
+        background-image: url(../images/header/invest-mobile.svg) !important;
+        width: 100%;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 419px) and (max-width: 457px) {
+    .mobile-image {
+        height: 792px !important;
+        background-image: url(../images/header/invest-mobile.svg) !important;
+        width: 100%;
+        margin-top: -21px;
+    }
+}
+
+@media (min-width: 365px) and (max-width: 418px) {
+    .mobile-image {
+        height: 650px !important;
+        background-image: url(../images/header/invest-mobile.svg) !important;
+        width: 100%;
+        margin-top: -3px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 364px) {
+    .mobile-image {
+        height: 577px !important;
+        background-image: url(../images/header/invest-mobile.svg) !important;
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 349px) {
+    .mobile-image {
+        height: 577px !important;
+        background-image: url(../images/header/invest-mobile.svg) !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .mobile-image {
+        margin-top: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .container,
+    #header.full-header .container,
+    .container-fullwidth {
+        width: 100% !important;
+    }
+    .mobile-image-benefits {
+        background-image: url(../images/header/benefits-header.jpg);
+        background-position: 76% 21% !important;
+        height: 178px !important;
+        background-size: 100%;
+        padding: 115px 0 10px;
+        margin-top: -20px;
+    }
+    #slider {
+        display: none;
+    }
+    #slider.mobile-header-benefits {
+        display: block;
+    }
+    #slider.mobile-header-benefits .floating-text-mobile-tablet {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 16px;
+        width: 100%;
+        padding: 15px;
+        display: inline-block;
+        position: relative;
+        top: 0;
+    }
+    .section {
+        padding: 45px 20px;
+    }
+    .container {
+        width: 95% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-image-benefits {
+        height: 790px !important;
+        background-image: url(../images/header/benefits-tablet.jpg);
+        width: 100%;
+    }
+}
+
+@media (min-width: 456px) and (max-width: 479px) {
+    .mobile-image-benefits {
+        height: 790px !important;
+        background-image: url(../images/header/benefits-mobile.svg) !important;
+        width: 100%;
+    }
+}
+
+@media (min-width: 419px) and (max-width: 457px) {
+    .mobile-image-benefits {
+        height: 792px !important;
+        width: 100%;
+        background-image: url(../images/header/benefits-mobile.svg) !important;
+    }
+}
+
+@media (min-width: 365px) and (max-width: 418px) {
+    .mobile-image-benefits {
+        height: 650px !important;
+        width: 100%;
+        background-image: url(../images/header/benefits-mobile.svg) !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 364px) {
+    .mobile-image-benefits {
+        height: 577px !important;
+        width: 100%;
+        background-image: url(../images/header/benefits-mobile.svg) !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .mobile-image-benefits {
+        background-image: url(../images/header/benefits-mobile.svg) !important;
+    }
+    section#slider {
+        top: -37px;
+    }
+}
+
+
+

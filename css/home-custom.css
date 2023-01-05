@@ -1,0 +1,113 @@
+.slider-custom-bg{
+	background-image: url('../images/header/asian-woman.jpg?<?php echo $expDate; ?>'); 
+	background-position: center top;
+}
+
+.item-size{
+	height: 500px; 
+	width: 600px;
+}
+
+.process-steps li:before, 
+.process-steps li:after { 
+	border: none !important; 
+}
+
+.margin-top{
+	margin-top: 10% !important;
+}
+
+.list-style-nav{
+	list-style: none; 
+	margin: 0 0 0px;
+}
+
+.get-a-loan-h1{
+	text-transform: capitalize !important;
+}
+
+.col-margin-top{
+	margin-top: 20px;
+}
+
+.list-none{
+	list-style: none;
+}
+
+.quick-margin-bottom{
+	margin-bottom: 0px !important;
+}
+
+.quick-style{
+	text-align: center; 
+	padding-left: 10%; 
+	padding-right: 10%;
+}
+
+.bg-section-custom{
+	background-color: #fff;
+}
+
+.image-size-custom{
+	height:120px;
+}
+
+.padding-section-custom{
+	padding-top: 58px;
+}
+
+.test-height-custom{
+	height: 210px!important;
+}
+
+.font-color-custom{
+	color:white
+}
+
+.cthumbnail {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	margin: 5px -10px;
+	background-color: rgb(245, 245, 245);
+}
+
+.cthumbnail img {
+	padding: 15px;
+}
+
+.coverlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 200px;
+	left: 0;
+	text-align: center;
+	background-color: #dfa128cc;
+}
+
+.coverlay h4.overlay-header {
+	color: #fff;
+	font-size: 1.5em;
+	padding: 15px;
+	/*background-color: #DFA128;*/
+}
+
+@media only screen and (max-width: 1024px) {
+	.cthumbnail .overlay-content {
+		padding: 0 15px;
+		position: relative;
+		bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+	.cthumbnail .coverlay {
+		top: 172px;
+	}
+
+	.coverlay h4.overlay-header {
+		font-size: 1.1em;
+		padding: 10px 0;
+	}
+}

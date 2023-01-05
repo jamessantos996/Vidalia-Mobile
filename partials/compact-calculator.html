@@ -1,0 +1,194 @@
+			<style type="text/css">
+			.irs-from, .irs-to, .irs-single  { background: #DFA128; }
+			.irs-from:after, .irs-to:after, .irs-single:after  { border-top-color: #DFA128; }
+			.irs-min, .irs-max { color: #ffffff; background: rgba(235, 156, 77, 0.5); }
+			@media only screen and (max-width: 360px) {
+				.calculator ul.tab-nav.tab-nav2 li {
+					width: 100%;
+					margin: 5px 0;
+				}
+			}
+			@media only screen and (max-width: 425px) {
+				.calculator {
+					padding: 20px 0;
+				}
+			}
+			</style>
+			<section class="calculator section nomargin" style="padding: 20px 0;">
+				<div class="container">
+					<div class="tabs clearfix ui-tabs ui-widget ui-widget-content ui-corner-all" id="tab-3">
+						<div class="tab-container">
+							<div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-9" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="false" style="display: block;">
+								<div class="col_four_fifth nobottommargin">
+									<div id="calculator-heading" class="fancy-title nobottomborder heading-block">
+										<h4><i class="fa fa-1x fa-calculator"></i>&nbsp;&nbsp;CALCULATE</h4>
+									</div>
+									<form id="vidalia-loan-calculator" name="jsForm" class="form" onsubmit="return false;">
+										<div class="col_full">
+											<div class="form-group">
+												<label for="template-contactform-desired-amount">Desired Amount<small>*</small></label>
+												<input type="text" id="range_loan_amount" name="jsLoanAmount" class="form-control" />
+											</div>
+										</div>
+										<div class="col_full">
+											<div class="form-group">
+												<label for="template-contactform-months-to-pay">Months to pay<small>*</small></label>
+												<input type="text" id="range_terms" name="jsMonthlyAmort" class="form-control" />
+											</div>
+										</div>
+										<div class="col_full">
+											<label for="template-contactform-monthly-amortization">Monthly Amortization<small>*</small></label>
+											<input type="text" disabled class="form-control input-lg not-dark required" id="template-contactform-monthly-amortization" name="jsResult" aria-required="true" />
+										</div>
+									</form>
+								</div>
+								<div class="col_one_fifth nobottommargin col_last">
+									<div class="heading-block">
+										<h2>IMPORTANT NOTICE:</h2>
+									</div>
+									<div class="col_full">
+										<ul class="iconlist iconlist-color nobottommargin">
+											<li><i class="icon-caret-right"></i> Interest Rate - 4-6% per month</li>
+											<li><i class="icon-caret-right"></i> Months to Pay - 2, 3, 6, 9, 12 months terms</li>
+											<li><i class="icon-caret-right"></i> Monthly Amortization - Your monthly payment to Vidalia Lending</li>
+										</ul>
+										<p><small>*computation results are for estimation purposes only. These do not constitute an approval nor offer by Vidalia Lending. Actual computations will be provided by your Account Officer upon loan application.</small></p>
+									</div>
+								</div>
+							</div>
+						</div> <!-- /.tab-container -->
+					</div> <!-- /.tabs -->
+				</div> <!-- /.container -->
+				<script type="text/javascript">
+					/**************************************************
+					********* JavaScript Implementation ***************
+					*************************************************
+					Loan Calculator 		
+					The formula for calculating loan payments is:
+					» » » : « « «	
+					Where the variables are as follows:
+					loan_amt - amount to be loan
+					interest - interest expressed as a decimal (e.g. 8% is .08)
+					monthly_amort - number of payments monthly (e.g. number of months)
+					semi_amort - number of payments in a month (e.g. twice in a month)
+					You can enhance the formulas below by allowing the user to change the number 
+					of payments per year if you wish. I have hard-coded the payments to monthly.
+					*/
+					function CalculatePayments(loan_amt, interestRate, monthly_amort, semi_amort) {
+
+						var interestRateDecimal = interestRate / 100;
+						var interest = loan_amt * interestRateDecimal;
+						var total = loan_amt + interest;
+
+						return total / monthly_amort;
+					}
+					function ShowPayments() {
+						var interestRate = 0.05;
+						var loan_amt = parseInt(removeCommas(document.jsForm.jsLoanAmount.value));
+						var loan_amort = parseInt(removeCommas(document.jsForm.jsMonthlyAmort.value));						
+
+						if (interestRate == "" || loan_amt == "" || loan_amort == "") {
+
+							alert("The form is not completed and has not submitted yet");
+							return false;
+						}
+
+						var x = CalculatePayments(loan_amt, interestRate, loan_amort);
+
+
+						if (isNaN(x)) {
+
+							document.jsForm.jsResult.value = 'Could not compute';
+						} else {
+
+							document.jsForm.jsResult.value = addCommas(parseFloat(x).toFixed(2));
+						}
+					}
+				</script>
+				<script type="text/javascript">				
+					jQuery(function(){			
+
+						// Get the max value
+						// var maxAllowedLoanAmount = 100000;
+
+			    		// Range slider
+			    		var loanAmtSlider = jQuery("#range_loan_amount");
+			    		var loanTermsSlider = jQuery("#range_terms");
+			    		var resetButton = jQuery("input[type=reset]");
+						jQuery('#range_loan_amount').on('change', function () {				
+							ShowPayments();			
+						});						
+						jQuery('#range_terms').on('change', function () {				
+							ShowPayments();			
+						});			
+			    		loanAmtSlider.ionRangeSlider({
+			    			min: minAllowedLoanAmount,
+			    			max: maxAllowedLoanAmount,								
+							from: minAllowedLoanAmount,
+			    			prefix: "₱",
+			    			grid: true,
+			    			force_edge: false,
+			    			step: 1000,
+
+			    		});
+
+			    		loanTermsSlider.ionRangeSlider({							
+							from: [2],
+			    			values: [2, 3, 6, 9, 12],
+			    			grid: true,
+			    			force_edge: false,
+			    		});
+						ShowPayments();
+			    		// Save slider instance
+			    		var valAmtSlider = loanAmtSlider.data("ionRangeSlider");
+			    		var valTermsSlider = loanTermsSlider.data("ionRangeSlider");			
+			    		resetButton.on('click', function(){
+
+			    			valAmtSlider.reset()
+			    			valTermsSlider.reset()
+			    		})
+
+			    		var currencyInput = jQuery('.currency-input');
+
+			    		currencyInput.on('keyup', function (){
+			    			var elem = jQuery(this);
+
+			    			temp = validDigits(elem.val());
+			    			elem.val(addCommas(temp));
+
+			    		})
+
+			    	});
+
+			    	// Remove commas
+			    	function removeCommas(n) {
+			    		return n.replace(',', '');
+			    	}
+
+					// Insert commas as thousands separators 
+					function addCommas(n) {
+						var rx = /(\d+)(\d{3})/;
+						return String(n).replace(/^\d+/, function(w) {
+							while (rx.test(w)) {
+								w = w.replace(rx, '$1,$2');
+							}
+							return w;
+						});
+					}
+
+			    	// return integers and decimal numbers from input
+			    	// optionally truncates decimals- does not 'round' input
+			    	function validDigits(n, dec) {
+			    		n = n.replace(/[^\d\.]+/g, '');
+			    		var ax1 = n.indexOf('.'),
+			    		ax2 = -1;
+			    		if (ax1 != -1) {
+			    			++ax1;
+			    			ax2 = n.indexOf('.', ax1);
+			    			if (ax2 > ax1) n = n.substring(0, ax2);
+			    			if (typeof dec === 'number') n = n.substring(0, ax1 + dec);
+			    		}
+			    		return n;
+			    	}		
+			    </script>
+			</section>

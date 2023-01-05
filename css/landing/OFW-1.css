@@ -1,0 +1,214 @@
+.pdb-45{
+    padding-bottom: 45px;
+}
+.ml-0{
+    margin-left: 0px;
+}
+
+.pdl-0{
+    padding-left: 0 !important;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.swiper-slide.corp-bg {
+    background-image: url(../../images/landing-pages/ofw-2.jpg);
+}
+.tl{
+    text-align: left;
+}
+.tc{
+    text-align: center;
+}
+img.i-size {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 10px;
+    margin-top: 29px!important;
+}
+th.border-th1 {
+    border-top: 5px solid #f3dc8f !important;
+    padding-top: 10px;
+    text-align: center;
+}
+th.border-th2 {
+    border-top: 5px solid #bfa02d !important;
+    padding-top: 10px;
+    text-align: center;
+}
+th.border-th3 {
+    border-top: 5px solid #dfa128 !important;
+    padding-top: 10px;
+    text-align: center;
+}
+td.f3dc8f{
+    text-align: center; 
+    color:#f3dc8f;
+}
+td.c212121{
+    text-align: center; 
+    color:#212121;
+}
+td.bfa02d{
+    text-align: center;
+    color: #bfa02d;
+}
+td.dfa128{
+    text-align: center;
+    color: #dfa128;
+}
+.before-heading{
+    font-size: 26px !important;
+}
+.margin-text{
+    margin:0 0 0px 0
+}
+.before-heading{
+    color: #c97d23 !important;
+}
+.content-wrap{
+    padding:80px 0px 0px 0px !important;
+}
+.line-1{
+    position: relative;
+    width:100%;
+    margin:0px;
+    border-top: 2px solid #cccccc;
+    margin-top: -40px !important
+}
+.heading-block{
+    margin-bottom: 22px !important;
+}
+.iconlist.iconlist-large li {
+    margin: 15px 0 !important;
+}
+h5{
+    margin: 0px !important;
+}
+.iconlist {
+ margin-left: 0px !important; 
+}
+@media only screen and (min-width: 768px){
+    .text--title {
+        font-size: 2.2em !important;
+        line-height: 1.2;
+    }   
+}
+
+@media only screen and (max-width: 667px){
+    .subscribe_content {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 667px){
+    .subscribe_content {
+        font-size: 20px;
+    }
+}
+@media (max-width: 479px){
+    .swiper_wrapper:not(.force-full-screen), .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide, .ei-slider {
+        height: 170px !important;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid), .swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide {
+        /*height: 289px !important;*/
+        height: 365px !important;
+    }
+}
+.subscribe_content{
+    color: #333;
+}
+h5.h5-table {
+    font-style: italic;
+    font-family: lato,'sans-serif';
+    padding-bottom: 20px;
+    display: inline-grid;
+}
+.text-black{
+    color: #555 !important;
+}
+.text-bold{
+    font-weight: bold;
+}
+.promo.promo-border {
+    border: 2px solid #fff !important;
+    background-color: #dfa128;
+    color: #fff;
+}
+.white-text {
+    color: #fff !important;
+}
+.table{
+    border: 1px solid #f9f9f9;
+}
+.blank {
+    border: 2px solid #e5e5e5;
+    width: 25%;
+    margin: 8px auto;
+}
+.button-white{
+    background-color: #fff;
+    color: #dfa128;
+}
+.d-block{
+        display: none;
+}
+
+
+.gld-con{
+    background: #dfa128;
+    padding: 50px 0px;
+    color: #fff;
+}
+
+.ofw-form form .col_full, form .col_half, form .col_one_third, form .col_two_third, form .col_three_fourth, form .col_one_fourth, form .col_one_fifth, form .col_two_fifth, form .col_three_fifth, form .col_four_fifth, form .col_one_sixth, form .col_five_sixth{
+    margin-bottom: -2px;
+}
+
+.ofw-form .form-control{
+        height: 40px;
+}
+
+
+
+
+@media (max-width:768px){
+    .d-none{
+        display: none;
+    }
+    .d-block{
+        display: block;
+    }
+    .container.clearfix.container-100 {
+        width: 100% !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .section-mob {
+        padding: 45px 5px !important;
+    }
+    .feature-box:first-child {
+        margin-bottom: 30px;
+    }
+    .mob-tc{
+        text-align: center;
+    }
+    .pdt-30{
+        padding-top: 30px;
+    }
+    .heading-block h3 {
+        font-size: 20px;
+    }
+    .text--title {
+        font-size: 25px;
+    }
+    .before-heading {
+        color: #c97d23 !important;
+        font-size: 21px !important;
+    }
+}
+.section-title {
+    padding-bottom: 50px !important;
+}

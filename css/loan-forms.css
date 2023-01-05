@@ -1,0 +1,24 @@
+
+		#forms-loan-heading {
+			background-color: #DFA128;
+			padding: 20px !important;
+			margin: -45px -66px 40px -66px !important;
+			color: #fff !important;
+		}
+		.small-input-pad {
+			padding: 10px !important;
+		}
+		body {
+			font-family: "Lato", Helvetica, Arial, sans-serif;
+        }
+		
+		@media (min-width: 319px){
+			.col_full, .col_half, .col_one_third, .col_two_third, .col_three_fourth, .col_one_fourth, .col_one_fifth, .col_two_fifth, .col_three_fifth, .col_four_fifth, .col_one_sixth, .col_five_sixth {
+			margin-bottom: 5px !important;
+			}
+		}
+
+		@media only screen and (max-width: 425px) {
+			.birthdate .col-md-4 { padding: 0; }
+			select { -webkit-appearance: none; line-height: 1.33 !important; }
+		}

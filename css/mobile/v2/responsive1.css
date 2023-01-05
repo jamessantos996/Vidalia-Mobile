@@ -1,0 +1,202 @@
+@media screen and (min-width: 320px) {
+    /* Header */
+    header {
+        background-color: #fff !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    /* Banner */
+    .hero-banner {
+        background-position: center;
+    }
+
+    /* .text-slide-wrapper .hero-title {
+        font-size: 24px;
+    } */
+}
+
+@media screen and (min-width: 360px) {
+    /* Banner */
+    .hero-title {
+        min-height: auto !important;
+    }
+}
+
+@media screen and (min-width: 435px) {
+    /* Banner */
+    .hero-title {
+        min-height: 114px !important;
+    }
+    .hero-content {
+        min-height: 246px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    /* Banner Section */
+    .hero-content {
+        min-height: 246px !important;
+    }
+    .banner-swiper-button-next,
+    .banner-swiper-button-prev {
+        top: 66% !important;
+    }
+    /* How to Use Section */
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 81px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-title {
+        font-size: 40px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+        color: #777;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    /* Banner */
+    .hero-title {
+        min-height: 77px !important;
+    }
+    .hero-banner {
+        background-position: top;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        padding: 0;
+        min-height: 144px;
+    }
+
+    .hero-img img {
+        height: 600px;
+    }
+
+    .hero-content {
+        min-height: 268px !important;
+    }
+    .banner-swiper-button-next,
+    .banner-swiper-button-prev {
+        top: 50% !important;
+    }
+
+    /* Product Section */
+    section.product .card {
+        width: 300px !important;
+        height: 280px !important;
+    }
+
+    section.product.section-padding {
+        padding: 100px 0px;
+    }
+
+    /* How to Use Section */
+    section.how-to-use .swiper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section.how-to-use.section-padding {
+        padding-top: 100px;
+    }
+
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 135px !important;
+    }
+
+    /* Testimonial Section */
+    section.testimonial .section-title {
+        font-size: 45px;
+    }
+    section.testimonial.section-padding {
+        padding: 100px 0px;
+    }
+    section.testimonial {
+        background-position: top center;
+    }
+
+    /* Share Section */
+    section.share .section-title {
+        font-size: 36px;
+    }
+
+    section.share.section-padding {
+        padding: 100px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Header */
+    header {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+    /* Banner */
+    .hero-title {
+        font-size: 48px;
+        min-height: auto;
+    }
+
+    .hero-img img {
+        height: 700px;
+    }
+
+    /* Product Section */
+    section.product .card {
+        width: 320px !important;
+        height: 320px !important;
+    }
+
+    /* How to Use Section */
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 162px !important;
+    }
+
+    /* Share Section */
+    section.share .section-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Banner Section */
+    .swiper-banner {
+        padding-left: 100px !important;
+    }
+
+    /* How to Use Section */
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 144px;
+    }
+
+    /* Testimonial Section */
+    .testimony {
+        /* padding: 40px; */
+        gap: 50px !important;
+    }
+    /* How to Use Section */
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 189px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* Banner */
+    .hero-title {
+        min-height: auto !important;
+    }
+
+    /* How to Use Section */
+    section.how-to-use .swiper-how-to-use .swiper-details .swiper-description {
+        min-height: 162px !important;
+    }
+
+    section.testimonial .container {
+        max-width: 1700px !important;
+    }
+}

@@ -1,0 +1,121 @@
+@media screen and (min-width: 320px) {
+    /* Header */
+    header {
+        background-color: #fff !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    /* Banner */
+    .hero-banner {
+        background-position: center;
+    }
+
+    /* .text-slide-wrapper .hero-title {
+        font-size: 24px;
+    } */
+}
+
+@media screen and (min-width: 360px) {
+    /* Banner */
+    .hero-title {
+        min-height: auto !important;
+    }
+}
+
+@media screen and (min-width: 435px) {
+    /* Banner */
+    .hero-title {
+        min-height: 114px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .section-title {
+        font-size: 32px;
+    }
+    .section-subtitle {
+        font-size: 18px;
+        color: #777;
+    }
+
+    .section-padding {
+        padding: 150px 0;
+    }
+
+    /* Banner */
+    .hero-title {
+        min-height: 77px !important;
+    }
+    .hero-banner {
+        background-position: top;
+    }
+
+    .text-slide-wrapper .hero-title {
+        font-size: 40px;
+        padding: 0;
+        min-height: 144px;
+    }
+
+    .img-slide-wrapper img {
+        height: 500px;
+    }
+
+    /* How to Use Section */
+    section.how-to-use .swiper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section.how-to-use .swiper .swiper-details .swiper-description {
+        min-height: 120px;
+    }
+
+    /* Testimonial Section */
+    section.testimonial {
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Header */
+    header {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+    /* Banner */
+    .text-slide-wrapper .hero-title {
+        font-size: 48px;
+        min-height: auto;
+    }
+
+    .img-slide-wrapper img {
+        height: 700px;
+    }
+
+    /* Share Section */
+    section.share .section-title {
+        font-size: 40px;
+    }
+    /* section.share .share-btn {
+        font-size: 25px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+    /* How to Use Section */
+    section.how-to-use .swiper .swiper-details .swiper-description {
+        min-height: 144px;
+    }
+    /* Share Section */
+    /* section.share .share-btn {
+        font-size: 30px;
+    } */
+}
+
+@media screen and (min-width: 1400px) {
+    /* Banner */
+    .hero-title {
+        min-height: 116px !important;
+    }
+}

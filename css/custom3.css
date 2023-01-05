@@ -1,0 +1,15 @@
+@media (max-width:479px) {
+    .quote-block {
+        padding: 40px 0px;
+    }
+    .quote-block .container {
+        width: 95% !important;
+    }
+    .quote-block p {
+        font-size: 1.1875rem;
+        line-height: 1.3684;
+    }
+    blockquote {
+        margin: 0px !important;
+    }
+}

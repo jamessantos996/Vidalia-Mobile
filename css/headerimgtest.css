@@ -1,0 +1,384 @@
+img {
+    opacity: 1!important;
+    transition: opacity .3s!important;
+}
+
+img[data-src] {
+    opacity: 0!important;
+}
+
+.header-image {
+    background-image: url('../images/header/home-page-test.jpg');
+    background-position: 74% 68%;
+}
+
+@media only screen and (max-width:1024px) {
+    .cthumbnail .overlay-content {
+        padding: 0 15px;
+        position: relative;
+        bottom: 0
+    }
+}
+
+.list-none,
+.list-style-nav {
+    list-style: none
+}
+
+.coverlay,
+.cthumbnail,
+.quick-style {
+    text-align: center;
+}
+
+.custom-spacing-testimonials {
+    padding: 70px;
+}
+
+.custom-spacing {
+    padding-bottom: 50px;
+}
+
+img.lazy {
+    display: block;
+}
+
+.getstarted-font {
+    font-size: 30px;
+    color: #555;
+}
+
+.getstarted-font:hover {
+    font-size: 30px;
+    color: #DFA128;
+}
+
+#slider.mobile-header {
+    display: none;
+}
+
+.mobile-image {
+    background-image: url(../images/header/home-page-test.jpg);
+    background-position: 74% 66% !important;
+    height: 195px !important;
+    background-size: 100%;
+    background-repeat: no-repeat !important;
+    padding: 115px 0 10px;
+}
+
+a:hover {
+    color: #DFA128;
+}
+
+.lending-ecosystem__cta:hover {
+    color: #fff !important;
+    border-color: #DFA128;
+    background-color: #DFA128;
+}
+
+.uk-overlay-panel {
+    position: inherit !important;
+    margin-top: -50px !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.uk-overlay-background {
+    background: #ca8d2c !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    width: 100% !important;
+}
+
+.stats-band {
+    background-color: #DFA128!important;
+}
+
+.stats-band h4 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.stats-band span .fa {
+    color: #fff;
+}
+
+.stats-band p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.estimated-return {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-weight: 300 !important;
+}
+
+.image-link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+
+.main-image {
+    display: block;
+    margin: auto;
+    max-height: 49vh;
+}
+
+#mobilePortfolio,
+#quickstepsmobile {
+    display: none;
+}
+
+.modal-open,
+body {
+    padding-right: 0!important;
+}
+
+.testimonials-content {
+    height: 210px!important;
+}
+
+.positions {
+    position: fixed;
+}
+
+@media only screen and (max-width:1199px) {
+    #home-gallery-button {
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+    }
+    article.portfolio-item:hover .portfolio-desc {
+        height: auto!important;
+    }
+}
+
+.section {
+    margin: 30px 0;
+    padding: 50px 0;
+}
+
+.section.stats-band {
+    padding: 30px 0;
+}
+
+.section.stats-band div {
+    margin-bottom: 0!important;
+}
+
+@media only screen and (max-width:749px) {
+    #quicksteps {
+        display: none;
+    }
+    #quickstepsmobile {
+        display: block;
+    }
+    ul.quick-steps-carousel-nav .quick-step-header {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .uk-overlay-panel {
+        position: inherit!important;
+        margin-top: -50px!important;
+        top: -110px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        color: #fff;
+    }
+    .uk-grid>*>:last-child {
+        margin-bottom: -102px;
+        height: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .process-steps li {
+        width: 100% !important;
+    }
+    .process-steps li h5 {
+        font-size: 10px;
+    }
+    .positions {
+        position: none;
+    }
+    .portfolio-item .portfolio-image,
+    .portfolio-item .portfolio-image a,
+    .portfolio-item .portfolio-image img {
+        padding: 20px;
+    }
+    #slider {
+        display: none;
+    }
+    #slider.mobile-header {
+        display: block;
+    }
+}
+
+@media (max-width:640px) {
+    .divider,
+    .section {
+        margin: 0;
+    }
+    .clients-grid li:before,
+    .testimonials-grid li:before {
+        border-left: none;
+    }
+    ul.testimonials-grid {
+        padding: 5px;
+    }
+    .testimonials-grid li {
+        width: auto!important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .testimonials-content {
+        height: auto!important;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .uk-overlay {
+        width: 100%;
+    }
+    .uk-overlay-background {
+        background-color: rgba(202, 141, 44, .7)!important
+    }
+    .uk-overlay-panel {
+        height: 100%;
+        top: -200px;
+    }
+    .uk-overlay img {
+        padding: 20px;
+    }
+    .uk-overlay-panel div {
+        position: relative;
+        top: 80px;
+    }
+    .uk-overlay-panel h3 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    #quickstepsmobile img {
+        padding: 0 15px;
+    }
+}
+
+.slider-custom-bg {
+    background-image: url('../images/header/asian-woman.jpg?<?php echo $expDate; ?>');
+    background-position: center top;
+}
+
+.item-size {
+    height: 500px;
+    width: 600px;
+}
+
+.process-steps li:after,
+.process-steps li:before {
+    border: none!important;
+}
+
+.margin-top {
+    margin-top: 10%!important;
+}
+
+.list-style-nav {
+    margin: 0;
+}
+
+.get-a-loan-h1 {
+    text-transform: capitalize!important;
+    padding-top: 40px;
+}
+
+.col-margin-top {
+    margin-top: 20px;
+}
+
+.quick-margin-bottom {
+    margin-bottom: 0!important;
+}
+
+.quick-style {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bg-section-custom {
+    background-color: #fff;
+}
+
+.image-size-custom {
+    width: 145px!important;
+    height: 100px!important;
+}
+
+.padding-section-custom {
+    padding-top: 58px;
+}
+
+.test-height-custom {
+    height: 210px!important;
+}
+
+.font-color-custom {
+    color: #fff;
+}
+
+.cthumbnail {
+    overflow: hidden;
+    position: relative;
+    margin: 5px -10px;
+    background-color: #f5f5f5;
+}
+
+.cthumbnail img {
+    padding: 15px;
+}
+
+.coverlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 200px;
+    left: 0;
+    background-color: #dfa128cc;
+}
+
+.coverlay h4.overlay-header {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+@media only screen and (max-width:1024px) {
+    .cthumbnail .overlay-content {
+        padding: 0 15px;
+        position: relative;
+        bottom: 0;
+    }
+    .get-a-loan-h1 {
+        font-size: 29px!important;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:426px) {
+    .cthumbnail .coverlay {
+        top: 172px;
+    }
+    .coverlay h4.overlay-header {
+        font-size: 1.1em;
+        padding: 10px 0;
+    }
+}

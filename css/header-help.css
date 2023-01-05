@@ -1,0 +1,96 @@
+		#slider.mobile-header {
+			display: none;
+		}
+		#slider.mobile-header p {
+			margin: 0;
+		}
+		#slider.mobile-header .header-form-container {
+			padding: 35px 10px;
+			background-color: #DFA128;
+		}
+
+
+		.faq .heading img {
+			display: inline;
+			margin-right: 5px;
+		}
+
+		.faq .heading h4 {
+			display: inline;
+			font-size: 26px;
+			vertical-align: middle;
+		}
+
+		.faq .heading {
+			margin-bottom: 25px;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 10px;
+		}
+
+		.contact-info p {
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+		}
+
+		.contact-info p > span {
+			float: right;
+		}
+		
+		.section {
+		    padding: 60px 5px 0px 5px;
+		}
+		
+		.mobile-image {
+			background-image: url(../images/header/help-2.jpg);
+			background-position: center top !important;
+			width: 100% !important;
+			height: auto !important;
+			background-repeat: no-repeat !important;
+		}
+
+		@media only screen and (max-width: 479px) { 
+			.container, #header.full-header .container, .container-fullwidth{
+				width: 100% !important;
+			}
+			.mobile-image {
+				background-image: url(../images/header/help-2.jpg);
+				background-position: 100% 21% !important;
+				height: 202px !important;
+				background-size: 200%;
+				padding: 115px 0 10px;
+			}
+			#slider {
+				display: none;
+			}
+			#slider.mobile-header {
+				display: block;
+			}
+			#slider.mobile-header .floating-text-mobile-tablet {
+				color: #fff;
+				background-color: rgba(0, 0, 0, 0.5);
+				font-size: 16px;
+				width: 100%;
+				padding: 15px;
+				display: inline-block;
+				position: relative;
+				top: 0;
+			}
+			.section {
+				padding: 45px 20px;
+			}
+			.container {
+				width: 95% !important;
+			}
+
+		}
+
+@media screen and (max-width: 382px){
+	.faq .heading h4 {
+	    font-size: 20px !important;
+}
+
+@media screen and (max-width: 322px){
+	.faq .heading h4 {
+	    font-size: 18px !important;
+}
